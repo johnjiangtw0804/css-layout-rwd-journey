@@ -1,0 +1,60 @@
+.card {
+    width: 300px;
+    padding: 20px;
+    margin: 40px auto; // 是對外部
+    border: 3px solid green;
+    background-color: #fefce8;
+    border-radius: 12px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+
+  .box {
+  border: 1px solid #333;
+  padding: 10px;
+  margin: 10px;
+  background-color: #e0f2fe;
+  font-weight: bold;
+}
+
+.block {
+  display: block;
+}
+
+.inline {
+  display: inline;
+  width:  10000px; // display: inline 元素： 就像文字一樣排在一行裡面（不會換行）
+                 // 寬度與高度由內容決定，無法使用 width 或 height 改變它 常見例子：<span>, <a>, <strong>
+}
+
+.inline-block {
+  display: inline-block;
+  width: 150px;
+}
+
+
+.margin-test{
+    background: #f0f9ff;
+    border: 1px solid #0ea5e9;
+    padding: 16px;
+    font-size: 20px;
+    width:300px;
+    box-sizing: border-box;
+}
+
+
+.one {
+    margin-bottom: 60px;
+}
+
+.two {
+    margin-top: 40px; // margin collapse and become 60px
+}
+
+.card-final {
+    outline: 3px solid red;     /* content 邊界 */
+    padding: 16px;
+    background: #fff7ed;        /* background 會延伸到包含 padding 的範圍，但不包括 margin 區 */
+    border: 4px solid orange;   /* border */
+    margin: 30px auto;
+}
