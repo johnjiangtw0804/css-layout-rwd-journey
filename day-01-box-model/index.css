@@ -1,7 +1,7 @@
 .card {
     width: 300px;
     padding: 20px;
-    margin: 40px auto; // 是對外部
+    margin: 40px auto; /* 對外部*/
     border: 3px solid green;
     background-color: #fefce8;
     border-radius: 12px;
@@ -23,8 +23,8 @@
 
 .inline {
   display: inline;
-  width:  10000px; // display: inline 元素： 就像文字一樣排在一行裡面（不會換行）
-                 // 寬度與高度由內容決定，無法使用 width 或 height 改變它 常見例子：<span>, <a>, <strong>
+  width:  10000px; /* display: inline 元素： 就像文字一樣排在一行裡面（不會換行） */
+                  /* 寬度與高度由內容決定，無法使用 width 或 height 改變它 常見例子：<span>, <a>, <strong> */
 }
 
 .inline-block {
@@ -48,7 +48,7 @@
 }
 
 .two {
-    margin-top: 40px; // margin collapse and become 60px
+    margin-top: 40px; /* margin collapse and become 60px */
 }
 
 .card-final {
